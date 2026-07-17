@@ -1,0 +1,212 @@
+<html>
+<head>
+<title>RESERVATION FORM</title>
+</head>
+<body background="background.jpg">
+<center>
+<img src="logo.png" width="250" height="250">
+</center>
+
+<font face="junifer" size="7" color="AO2OFO">
+<b><i>RESERVATION FORM</i></b>
+</font>
+
+<br><br>
+
+<form>
+
+<table border="0" cellpadding="10">
+
+<tr>
+<td bgcolor="#E1AD01">
+<font face="junifer" color="white" size="5">
+<b>&nbspPersonal Information</b>
+</font>
+</td>
+</tr>
+
+<tr><td height="15"></td></tr>
+
+<tr>
+<td>
+
+<table width="100%" cellpadding="8" cellspacing="0" border="0">
+
+<tr>
+<td width="50%">
+<font face="junifer" size="4"><b>FULL NAME:</b></font><br>
+<input type="text" name="fullname" placeholder="Enter Full Name" size="30" required><br><br>
+
+<font face="junifer" size="4"><b>AGE:</b></font><br>
+<input type="number" min="18" max="122" required><br><br>
+ 
+<font face="junifer" size="4"><b>SEX:</b></font><br>
+<input type="radio" name="sex">Male
+<input type="radio" name="sex">Female
+<input type="radio" name="sex">Prefer not to say
+</td>
+
+<td width="50">
+<font face="junifer" size="4"><b>EMAIL ADDRESS:</b></font><br>
+<input type="email" name="email" placeholder="Example@gmail.com" size:"30"><br><br>
+
+<font face="junifer" size="4"><b>PHONE NUMBER:</b></font><br>
+<input type="text" name="phone" placeholder="+63xxxxxxxxxx" size="30"><br><br>
+
+<font face="junifer" size="4"><b>ADDRESS:</b></font><br>
+<textarea name="address" rows="3" cols="30" placeholder="Enter Full Address"></textarea>
+</td>
+</tr>
+</table>
+
+<tr>
+<td bgcolor="#E1AD01">
+<font face="junifer" color="white" size="5">
+<b>&nbspReservation Details</b>
+</font>
+</td>
+</tr>
+
+<tr><td height="15"></td></tr>
+
+<tr>
+<td>
+
+<table width="100%" cellpadding="8" cellspacing="0" border="0">
+
+<tr>
+<td width="50%">
+<font face="junifer" size="4"><b>Check-In Date:</b></font><br>
+<input type="date" name="checkin"><br><br>
+
+<font face="junifer" size="4"><b>Check-Out Date:</b></font><br>
+<input type="date" name="checkout"><br><br>
+
+<font face="junifer" size="4"><b>Numbers of Travelers:</b></font><br>
+<input type="number" name="travelers" placeholder="E.g. 9" size="30"><br><br>
+</td>
+
+<td width="50%">
+
+<font face="junifer" size="4"><b>Tour Package Categories:</b></font>
+<select name="tourpackage">
+<option>Select Packages</option>
+<option>Standard</option>
+<option>Deluxe</option>
+<option>Premium</option>
+<option>VIP</option>
+</select><br><br>
+
+<font face="junifer" size="5"><b>Duration:</b></font><br>
+<input type="text" name="duration" placeholder="E.g. 3 Days/2 Nights" size="30">
+
+<font face="junifer" size="5"><b>Payment Method:</b></font><br>
+<input type="checkbox" name="payment">Cash
+<input type="checkbox" name="payment">Credit Card
+<input type="checkbox" name="payment">Debit Card
+</td>
+</tr>
+</table>
+
+<tr>
+<td bgcolor="#E1AD01">
+<font face="junifer" color="white" size="5">
+<b>&nbspDestination</b>
+</font>
+</td>
+</tr>
+
+<tr><td height="15"></td></tr>
+
+<tr>
+<td>
+
+<table width="100%" cellpadding="8" cellspacing="0" border="0">
+
+<font face="junifer" size="4"><b>Select Island Group:</b></font><br><br>
+<select name="island group">
+<option>LUZON</option>
+<option>VISAYAS</option>
+<option>MINDANAO</option>
+</select><br><br>
+
+<font face="junifer" size="4"><b>Select Tourist Destination:</b></font><br><br>
+<select name="destination">
+<optgroup label="Luzon">
+<option>Select Tourist Destination</option>
+<option>Nueva Ecija</option>
+<option>Tarlac</option>
+<option>Aurora</option>
+<option>Pampanga</option>
+<option>Benguet</option>
+</optgroup>
+
+
+<optgroup label="Visayas">
+<option>Boracay Island</option>
+<option>Chocolate Hills</option>
+<option>Kawasan Falls</option>
+<option>Panglao Island</option>
+<option>Siquijor Island</option>
+</optgroup>
+
+<optgroup label="Mindanao">
+<option>Siargo Island</option>
+<option>Mount Apo</option>
+<option>Lake Sebu</option>
+<option>Pink Beach</option>
+<option>Hinatuan Enchanted River</option>
+</optgroup>
+</select>
+</td>
+</tr>
+
+<tr><td height="15"></td></tr>
+
+
+<tr>
+<td bgcolor="#E1AD01">
+<font face="junifer" color="white" size="5">
+<b>&nbspBooking Policies</b>
+</font>
+</td>
+</tr>
+
+<tr><td height="15"></td></tr>
+
+<tr>
+<td>
+
+<font face="junifer" size="3">
+<ul type="cicrle">
+<li><b>A booking is confirmed only after the required deposit or <br>full payment has been received. Full payment must<br> be completed before the scheduled tour date.</b></li><br><br>
+<li><b>Cancellation or rescheduling requests must be made at least<br> 7 days before departure. Refunds and schedule <br>changes are subject to the company's cancellation <br>policy and availability.</b></li><br><br>
+<li><b>Guests who fail to arrive on the scheduled departure<br> time without prior notice will be considered no-shows, and <br>payments made may be forfeited.</b></li><br><br>
+</font>
+</td>
+</tr>
+</ul>
+</table>
+
+<a href="food & location.html">
+<input type="button" value="Submit Reservation"></a>
+&nbsp&nbsp&nbsp
+<input type="reset" value="Clear">
+&nbsp&nbsp&nbsp
+<a href="tourist destination.html">
+<input type="button" value="Return to Places"></a>
+</td>
+</tr>
+
+<tr>
+<td height="30">
+</td>
+</tr>
+</table>
+
+<hr color="2E5793" width="500">
+<center><b>NAME:</b><i>Jameer Vincent N. Esguerra</i><br>
+<center><b>GRADE & SECTION:</b><i>11-Latorena</i>
+</center>
+</body>
+</html>
